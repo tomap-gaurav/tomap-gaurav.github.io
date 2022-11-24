@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", sans-serif;
+    color: #008B8B;
+    
+}
+
+header{
+    background-color: #333;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    min-height: 18vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-branding{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-link{
+    transition: 0.7s ease;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nav-link:hover{
+    color: rgb(20, 106, 106);
+}
+
+button{
+    border: none;
+    background: #008B8B;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #00CED1;
+}
+
+/* About Section*/
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 75px;
+    margin-bottom: 10%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 6.2%;
+    padding-right: 6.2%;
+}
+.main{
+    width: 60%;
+}
+.main h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.main p{
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.btntwo{
+    border: none;
+    background: #008B8B;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+.btntwo:hover{
+    background:rgb(20, 106, 106);
+    border: 2px solid white;
+    transition: 0.4s;
+}
+
+.socials{
+    margin: 2%;
+    padding: 2%;
+    width: 50px;
+    height: auto;
+}
+
+.socials a{
+    display: block;
+    padding: 10px;
+}
+
+
+.projects{
+    margin: 75px 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+
+.blog-container{
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer{
+    font-size: 16px;
+    bottom:0px;
+    height:18vh;
+    width:100%;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    background-color: #333;
+ }
+
+ footer center i{
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+
+
+ /* New Content */
+
+.city {
+    width: 95%;
+    margin: 0.2em auto;
+    border: 2px solid #00CED1;
+    border-radius: 6px;
+}
+
+.city-image,
+.description {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.city-image {
+    padding: 1.2em 0;
+} 
+
+.description {
+    padding: 1em 1em;
+}
+
+.city-image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.city:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+@media (min-width: 640px) { 
+
+.card-container {
+        display: flex;
+        flex-flow: wrap;
+    }
+
+.city {
+    flex: 1 0 48%;
+    margin: 1%;
+    }
+}
+
+@media (min-width: 1001px) {
+    .city {
+        flex: 1 0 31%;
+    }
+
+    .city:last-of-type {
+        flex-grow: 0;
+    }
+}
+
+@media(max-width:768px){
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        padding-bottom: 2%;
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #333;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item{
+        margin: 16px 0;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+}
