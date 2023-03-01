@@ -22,9 +22,9 @@ a{
 .navbar{
     min-height: 18vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 25px 0;
+    padding: 0 6.2%;
 }
 
 .nav-menu{
@@ -143,8 +143,8 @@ button:hover{
     margin: 75px 0;
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 6.2%;
+    padding-right: 6.2%;
     }
 
 .blog-container{
@@ -172,22 +172,20 @@ footer{
  }
 
 
- /* New Content */
-
-.city {
+.project-div {
     width: 95%;
     margin: 0.2em auto;
     border: 2px solid #00CED1;
     border-radius: 6px;
 }
 
-.city-image,
+.project-blog-image,
 .description {
     width: 90%;
     margin: 0 auto;
 }
 
-.city-image {
+.project-blog-image {
     padding: 1.2em 0;
 } 
 
@@ -195,14 +193,14 @@ footer{
     padding: 1em 1em;
 }
 
-.city-image img {
+.project-blog-image img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
     height: auto;
 }
 
-.city:hover{
+.project-div:hover{
     transform: scale(1.01);
     cursor: pointer;
 }
@@ -214,18 +212,18 @@ footer{
         flex-flow: wrap;
     }
 
-.city {
+.project-div {
     flex: 1 0 48%;
     margin: 1%;
     }
 }
 
 @media (min-width: 1001px) {
-    .city {
+    .project-div {
         flex: 1 0 31%;
     }
 
-    .city:last-of-type {
+    .project-div:last-of-type {
         flex-grow: 0;
     }
 }
@@ -270,6 +268,6 @@ footer{
 
     .navbar{
         justify-content: space-between;
-        margin: 0 4%;
+        margin: 0 1%;
     }
 }
