@@ -148,7 +148,7 @@ button:hover{
     }
 
 .blog-container{
-    margin: 1%;
+    margin: 3% auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -270,5 +270,11 @@ footer{
     .navbar{
         justify-content: space-between;
         margin: 0 1%;
+    }
+    .blog-container{
+        margin: 3% auto;
+    }
+    .project-div{
+     margin-bottom : 1em;
     }
 }
