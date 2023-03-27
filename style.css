@@ -2,9 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Roboto Mono", sans-serif;
-    color: #008B8B;
-    
+    font-family: "Anonymous Pro",Inconsolata,"Roboto Mono", sans-serif;
+    color: #008B8B;   
+}
+
+p{
+    font-size: 20px;
+    color: rgba(0, 139, 139, 0.9);  
 }
 
 header{
@@ -47,6 +51,7 @@ a{
 
 .nav-link:hover{
     color: rgb(20, 106, 106);
+    text-decoration: underline;
 }
 
 button{
@@ -56,7 +61,7 @@ button{
     border-radius: 30px;
     color: white;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 22px;
     transition: .4s;
 }
 
@@ -77,7 +82,7 @@ button:hover{
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #00CED1;
+    background-color: #008B8B;
 }
 
 /* About Section*/
@@ -229,7 +234,7 @@ footer{
     }
 }
 
-@media(max-width:768px){
+@media(max-width:880px){
     .hamburger{
         display: block;
     }
@@ -277,4 +282,72 @@ footer{
     .project-div{
      margin-bottom : 1em;
     }
+}
+
+
+
+.project-blog-image img {
+    width: 100%;
+    height: 200px;
+}
+
+
+.technologies{
+    margin: 75px 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 6.2%;
+    padding-right: 6.2%;
+}
+
+.services-tech-gallery{
+    margin: 3% auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.services-tech-img{
+    padding: 20px 20px;
+    height:80px;
+    width: auto;
+}
+
+ul li a{
+    font-size: 22px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.btntwo{
+    font-size: 20px;
+}
+
+.project-blog-image {
+    /*box-shadow: rgba(0, 139, 139, 0.7) 0px 1px 4px;*/
+    border-bottom: 2px solid #00ced1;
+    border-bottom-style: inset;
+}
+
+
+img.emoji{
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+.highlight_text{
+    color: rgb(0, 139, 139);
+    font-weight: bold
 }

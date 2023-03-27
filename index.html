@@ -10,12 +10,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Inconsolata:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav class="navbar">
+            
+            <!-- img logo inplace of this <a href="#" class="nav-branding">Gaurav Tomar</a>
             <img src="images/logo.PNG" alt="logo" style="height: 3rem; border: 3px solid rgb(20, 106, 106); border-radius: 2px;">
-            <!-- img logo inplace of this <a href="#" class="nav-branding">Gaurav Tomar</a>-->
+            -->
+            <img src="images/Gaurav.png" alt="logo" style="height: 3rem; border: 3px solid rgb(0, 139, 139); border-radius: 2px;">
             <div></div>
             <div></div>
             <ul class="nav-menu">
@@ -46,7 +53,8 @@
     <div class="about">
         <div class="main">
             <h1>Hi! I am<br>Gaurav.</h1>
-            <p>I am a Data Analyst based in Gurgaon, India. I am a Python developer and Data Science enthusiast and writes simple how-to guides to all your data problems on my blog.</p>
+            <p>I am a <span class="highlight_text">Python Developer</span> and <span class="highlight_text">Data Analyst</span> based in <span class="highlight_text">Gurgaon, India</span>.<br>My work includes application of <span class="highlight_text">Statistics</span>, <span class="highlight_text">Data Analysis</span>, and <span class="highlight_text">Machine Learning</span> to analyze data, identify patterns, extract knowledge and insights from it.
+            </p>
             <a href="mailto:tomapgaurav@gmail.com" class="btntwo">Get in touch</a>
         </div>
     
@@ -58,7 +66,7 @@
     </div>
 
     <div class="projects" id="projects">
-        <h2>My Latest Projects</h2>
+        <h1>RECENT PROJECTS</h1>
         <div class="blog-container">
             <div class="project-div">
                 <a href="/projects/project_ab_testing.html">
@@ -68,8 +76,7 @@
                     </div>
                     <div class="description">
                         <h2>Bayesian A/B Testing</h2>
-                        <p>Cumulus inc chopper read, north of the river melb rooftop cinema four seasons in one day victory vs
-                        heart, victoria street dodgies graffiti kylie minogue.</p>
+                        <p>Designed experiments to check outcomes of competing scenerios and then used statistical techniques to provide implementation strategies.</p>
                     </div>
                 </a>
             </div>
@@ -95,7 +102,7 @@
                         <!--Image Credit : https://www.infoworld.com/article/3622688/getting-started-with-time-series-analysis.html-->
                     </div>
                     <div class="description">
-                        <h2>Time Series Analysis For Stock Price Movement</h2>
+                        <h2>Time Series Analysis For Stock Price Movements</h2>
                         <p>Time Series Analysis Comparison between ML model, statsmodel and XGBoost model
                         </p>
                     </div>
@@ -134,7 +141,7 @@
                     </div>
                     <div class="description">
                         <h2>Machine Learning Model Deployment using Flask</h2>
-                        <p>Machine Learning Model Deployment using Flask</p>
+                        <p>Developed a ML model to predict Breast Cancer and deployed using Flask and Heroku</p>
                     </div>
                 </a>
             </div>
@@ -142,7 +149,7 @@
     </div>
 
     <div class="projects" id="blog">
-        <h2>Blog</h2>
+        <h1>BLOG POSTS</h1>
         <div class="blog-container">
             <div class="project-div">
                 <a href="#">
@@ -181,6 +188,40 @@
         </div>
     </div>
     
+    <div class="technologies">
+        <h1 class="h2"> TOOLS </h1>
+
+        <div class="services-tech-gallery">
+            <img class="services-tech-img" loading="lazy" alt="python" src="https://www.python.org/static/community_logos/python-logo-generic.svg">
+            <img class="services-tech-img" loading="lazy" alt="numpy" src="https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg">
+            <img class="services-tech-img" loading="lazy" alt="pandas" src="https://pandas.pydata.org/static/img/pandas.svg">
+            <img class="services-tech-img" loading="lazy" alt="matplotlib" src="https://matplotlib.org/stable/_images/sphx_glr_logos2_003_2_0x.png">
+            <img class="services-tech-img" loading="lazy" alt="seaborn" src="https://seaborn.pydata.org/_images/logo-wide-lightbg.svg">
+            <img class="services-tech-img" loading="lazy" alt="seaborn" src="https://www.vectorlogo.zone/logos/plot_ly/plot_ly-ar21.svg">
+            <img class="services-tech-img" loading="lazy" alt="scikit-learn" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png">
+            <img class="services-tech-img" loading="lazy" alt="keras+tensorflow" src="https://blog.keras.io/img/keras-tensorflow-logo.jpg">
+            <img class="services-tech-img" loading="lazy" alt="jupyter" src="https://jupyter.org/assets/logos/rectanglelogo-greytext-orangebody-greymoons.svg">
+            <img class="services-tech-img" loading="lazy" alt="Anaconda" src="images/Anaconda_Logo.png">
+
+            <img class="services-tech-img" loading="lazy" alt="tableau" src="https://www.tableau.com/sites/default/files/2022-04/TableauLogo_RGB.png">
+            <img class="services-tech-img" loading="lazy" alt="power-bi" src="images\power_bi.png">
+            <img class="services-tech-img" loading="lazy" alt="apache spark" src="https://www.vectorlogo.zone/logos/apache_spark/apache_spark-ar21.svg">
+            <img class="services-tech-img" loading="lazy" alt="flask" src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg">
+            <img class="services-tech-img" loading="lazy" alt="MySQL" src="https://www.mysql.com/common/logos/logo-mysql-170x115.png">
+            <!--
+                <img class="services-tech-img" loading="lazy" alt="SQL" src="images/sql_logo.png">
+            -->
+            <img class="services-tech-img" loading="lazy" alt="MongoDB" src="https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress">
+
+            <img class="services-tech-img" loading="lazy" alt="Git" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg">
+            <img class="services-tech-img" loading="lazy" alt="Docker" src="https://www.docker.com/wp-content/uploads/2022/03/horizontal-logo-monochromatic-white.png">
+            <img class="services-tech-img" loading="lazy" alt="Hugging Face Transformers" src="https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/transformers_logo_name.png">
+            <img class="services-tech-img" loading="lazy" alt="W&B" src="https://assets.website-files.com/5ac6b7f2924c656f2b13a88c/60de02f3843862bd5d482a51_weights-and-biases-logo-black.svg">
+            <img class="services-tech-img" loading="lazy" alt="AWS" src="images/Amazon_Web_Services_Logo.svg">
+        
+        </div>
+    </div>
+
     <footer>
     <center>
         <a href="https://github.com/tomap-gaurav"><i class="fa fa-github" style="font-size:36px"></i></a>
@@ -188,7 +229,10 @@
         <i class="fa fa-twitter-square" style="font-size:36px"></i>
         <a href="mailto:tomapgaurav@gmail.com"><i class="fa fa-envelope" style="font-size:36px"></i></a>
     </center>
-    <center style="padding: 10px 0;">&#169;copyright tomap</center>
+    <!--
+        <center style="padding: 10px 0;">&#169;copyright tomap</center>
+    -->
+    <center style="padding-top: 20px; font-weight: bold;"> With <img class="emoji" src="https://s.w.org/images/core/emoji/13.1.0/svg/2764.svg"> By Gaurav Tomar</center>
     </footer>
 
     <script src="script.js"></script>
