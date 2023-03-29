@@ -54,7 +54,7 @@ a{
     text-decoration: underline;
 }
 
-button{
+.button_nav{
     border: none;
     background: #008B8B;
     padding: 12px 30px;
@@ -65,7 +65,7 @@ button{
     transition: .4s;
 }
 
-button:hover{
+.button_nav:hover{
     transform: scale(1.1);
     cursor: pointer;
 }
@@ -350,4 +350,21 @@ img.emoji{
 .highlight_text{
     color: rgb(0, 139, 139);
     font-weight: bold
+}
+
+.used_tech{
+    border: none;
+    background: rgba(0, 139, 139, 0.1);
+    padding: 3px 5px;
+    border-radius: 3px;
+    color: #008b8b;
+    font-family: "Roboto Mono";
+    font-size: small;
+    font-weight: 600;
+    transition: .4s;
+    margin: 2px;
+}
+
+.used_tech:hover{
+    cursor: pointer;
 }
