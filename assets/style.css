@@ -28,7 +28,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 6.2%;
+    padding: 0 12%;
 }
 
 .nav-menu{
@@ -98,8 +98,8 @@ a{
     margin-right: 1%; */
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 6.2%;
-    padding-right: 6.2%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 .main{
     width: 60%;
@@ -107,13 +107,14 @@ a{
 .main h1{
     font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .main p{
-    word-spacing: 2px;
-    line-height: 25px;
+    word-spacing: 4px;
+    line-height: 35px;
     margin-bottom: 40px;
+    font-size: 22px;
 }
 
 .btntwo{
@@ -148,9 +149,8 @@ a{
 .projects, .blog{
     margin: 75px 0;
     padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 6.2%;
-    padding-right: 6.2%;
+    padding-left: 15%;
+    padding-right: 15%;
     }
 
 .blog-container{
@@ -235,7 +235,17 @@ footer{
     }
 }
 
-@media(max-width:900px){
+@media(max-width:800px){
+    .navbar{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .about, .projects, .blog, .technologies{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+
     .hamburger{
         display: block;
     }
@@ -296,9 +306,8 @@ footer{
 .technologies{
     margin: 75px 0;
     padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 6.2%;
-    padding-right: 6.2%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .services-tech-gallery{
@@ -316,7 +325,7 @@ footer{
 }
 
 ul li a{
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .description{
