@@ -51,7 +51,6 @@ a{
 
 .nav-link:hover{
     color: rgb(20, 106, 106);
-    text-decoration: underline;
 }
 
 .button_nav{
@@ -131,7 +130,7 @@ a{
 }
 
 .main p{
-    word-spacing: 8px;
+    word-spacing: 5px;
     line-height: 35px;
     margin-bottom: 40px;
     font-size: 24px;
@@ -201,9 +200,11 @@ footer{
 .project-div {
     width: 95%;
     margin: 0.2em auto;
+    /*
     border: 2px solid #00CED1;
+    */
     border-radius: 6px;
-    box-shadow: rgba(0, 139, 139, 0.7) 0px 1px 4px;
+    box-shadow: rgba(0, 139, 139, 0.7) 1px 3px 4px;
     overflow: hidden;
 }
 
@@ -365,12 +366,13 @@ ul li a{
     font-size: 20px;
 }
 
+/*
 .project-blog-image {
-    /*box-shadow: rgba(0, 139, 139, 0.7) 0px 1px 4px;*/
+    box-shadow: rgba(0, 139, 139, 0.7) 0px 1px 4px;
     border-bottom: 2px solid #00ced1;
     border-bottom-style: inset;
 }
-
+*/
 
 img.emoji{
     display: inline !important;
