@@ -91,16 +91,36 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 75px;
+    margin-top: 60px;
     margin-bottom: 10%;
     /*
     margin-left: 1%;
-    margin-right: 1%; */
+    margin-right: 1%;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 25px; */
     padding-left: 15%;
     padding-right: 15%;
 }
+
+/* About ME Specifications*/
+.intro{
+    margin: 60px 0;
+    padding-left: 15%;
+    padding-right: 15%;
+    }
+
+.intro h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    }
+
+.intro p{
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    }
+
 .main{
     width: 60%;
 }
@@ -112,7 +132,7 @@ a{
 
 .main p{
     word-spacing: 4px;
-    line-height: 35px;
+    line-height: 30px;
     margin-bottom: 40px;
     font-size: 22px;
 }
@@ -184,18 +204,19 @@ footer{
     border: 2px solid #00CED1;
     border-radius: 6px;
     box-shadow: rgba(0, 139, 139, 0.7) 0px 1px 4px;
+    overflow: hidden;
 }
 
 .project-blog-image,
 .description {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
-
+/*
 .project-blog-image {
     padding: 1.2em 0;
 } 
-
+*/
 .description {
     padding: 1em 1em;
 }
@@ -241,6 +262,11 @@ footer{
         padding-right: 3%;
     }
     .about, .projects, .blog, .technologies{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .intro{
         padding-left: 4%;
         padding-right: 4%;
     }
@@ -380,21 +406,3 @@ img.emoji{
 }
 
 
-/* About ME Specifications*/
-.intro{
-    margin: 60px 0;
-    padding-left: 6.2%;
-    padding-right: 6.2%;
-    }
-
-.intro h1{
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 30px;
-    }
-
-.intro p{
-    word-spacing: 2px;
-    line-height: 25px;
-    margin-bottom: 20px;
-    }
