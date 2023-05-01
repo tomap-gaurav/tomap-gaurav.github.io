@@ -2,13 +2,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Anonymous Pro",Inconsolata,"Roboto Mono", sans-serif;
+   /* font-family: "Anonymous Pro",Inconsolata,"Roboto Mono", sans-serif;*/
     color: #008B8B;   
 }
+/*Cardo Alata*/
 
 p{
+    font-family: 'Roboto Mono';
     font-size: 20px;
     color: rgba(0, 139, 139, 0.9);  
+}
+h1, h2{
+    font-family: "Alata";
 }
 
 header{
@@ -22,6 +27,10 @@ li{
 a{
     text-decoration: none;
 }
+/*
+ul li a{
+    font-size: 25px;
+}*/
 
 .navbar{
     min-height: 18vh;
@@ -49,10 +58,11 @@ a{
 /*    font-style: italic; */
 }
 
-.nav-link:hover{
+.nav-link h2:hover{
     color: rgb(20, 106, 106);
 }
 
+/*
 .button_nav{
     border: none;
     background: #008B8B;
@@ -68,7 +78,7 @@ a{
     transform: scale(1.1);
     cursor: pointer;
 }
-
+*/
 .hamburger{
     display: none;
     cursor: pointer;
@@ -90,30 +100,21 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-bottom: 10%;
     padding-left: 15%;
     padding-right: 15%;
 }
 
-/* About ME Specifications*/
+
 .intro{
-    margin: 60px 0;
+    margin: 50px 0;
     padding-left: 15%;
     padding-right: 15%;
     }
-
-.intro h1{
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 30px;
-    }
-
 .intro p{
-    word-spacing: 2px;
-    line-height: 25px;
-    margin-bottom: 20px;
-    }
+    text-align: justify;
+}
 
 .main{
     width: 60%;
@@ -125,10 +126,10 @@ a{
 }
 
 .main p{
-    word-spacing: 5px;
     line-height: 35px;
     margin-bottom: 40px;
     font-size: 24px;
+    text-align: justify;
 }
 
 .btntwo{
@@ -139,6 +140,7 @@ a{
     color: white;
     font-weight: bold;
     font-size: 15px;
+    font-family: "Roboto Mono";
     transition: .4s;
 }
 .btntwo:hover{
@@ -268,7 +270,15 @@ footer{
         padding-left: 4%;
         padding-right: 4%;
     }
+    p{
+        font-size: 18px;
+    }
 
+    .main p {
+        line-height: 25px;
+        font-size: 20px;
+        text-align: justify;
+      }
 
     .hamburger{
         display: block;
@@ -348,9 +358,6 @@ footer{
     width: auto;
 }
 
-ul li a{
-    font-size: 25px;
-}
 
 .description{
     display: flex;
@@ -384,7 +391,7 @@ img.emoji{
 
 .highlight_text{
     color: rgb(0, 139, 139);
-    font-weight: bold
+    /*font-weight: bold*/
 }
 
 .used_tech{
