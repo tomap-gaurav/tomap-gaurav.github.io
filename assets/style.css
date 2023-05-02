@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-   /* font-family: "Anonymous Pro",Inconsolata,"Roboto Mono", sans-serif;*/
     color: #008B8B;   
 }
 /*Cardo Alata*/
@@ -27,10 +26,6 @@ li{
 a{
     text-decoration: none;
 }
-/*
-ul li a{
-    font-size: 25px;
-}*/
 
 .navbar{
     min-height: 18vh;
@@ -62,23 +57,6 @@ ul li a{
     color: rgb(20, 106, 106);
 }
 
-/*
-.button_nav{
-    border: none;
-    background: #008B8B;
-    padding: 12px 30px;
-    border-radius: 30px;
-    color: white;
-    font-weight: bold;
-    font-size: 22px;
-    transition: .4s;
-}
-
-.button_nav:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-}
-*/
 .hamburger{
     display: none;
     cursor: pointer;
@@ -178,10 +156,7 @@ ul li a{
 
 footer{
     font-size: 16px;
-    bottom:0px;
-    /*
-    height:18vh;
-    */
+    bottom:0px; 
     width:100%;
     padding-top: 40px;
     padding-left: 10%;
@@ -199,9 +174,6 @@ footer{
 .project-div {
     width: 95%;
     margin: 0.2em auto;
-    /*
-    border: 2px solid #00CED1;
-    */
     border-radius: 6px;
     box-shadow: rgba(0, 139, 139, 0.7) 1px 3px 4px;
     overflow: hidden;
@@ -212,11 +184,7 @@ footer{
     width: 100%;
     margin: 0 auto;
 }
-/*
-.project-blog-image {
-    padding: 1.2em 0;
-} 
-*/
+
 .description {
     padding: 1em 1em;
 }
@@ -233,6 +201,80 @@ footer{
     cursor: pointer;
 }
 
+
+
+.project-blog-image img {
+    width: 100%;
+    height: 200px;
+}
+
+
+.technologies{
+    margin: 75px 0;
+    padding-top: 25px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.services-tech-gallery{
+    margin: 3% auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.services-tech-img{
+    padding: 20px 20px;
+    height:80px;
+    width: auto;
+}
+
+
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.btntwo{
+    font-size: 20px;
+}
+
+img.emoji{
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+.highlight_text{
+    color: rgb(0, 139, 139);
+}
+
+.used_tech{
+    border: none;
+    background: rgba(0, 139, 139, 0.1);
+    padding: 3px 5px;
+    border-radius: 3px;
+    color: #008b8b;
+    font-family: "Roboto Mono";
+    font-size: small;
+    font-weight: 600;
+    transition: .4s;
+    margin: 2px;
+}
+
+.used_tech:hover{
+    cursor: pointer;
+}
+
+
 @media (min-width: 640px) { 
 
 .card-container {
@@ -247,12 +289,14 @@ footer{
 }
 
 @media (min-width: 1001px) {
-    .project-div {
-        flex: 1 0 31%;
-    }
-
     .project-div:last-of-type {
         flex-grow: 0;
+    }
+    .navbar{
+        padding: 0 18%;
+    }
+    .about, .projects, .blog, .technologies, .intro{
+        padding: 0 20%;
     }
 }
 
@@ -271,12 +315,12 @@ footer{
         padding-right: 4%;
     }
     p{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .main p {
         line-height: 25px;
-        font-size: 20px;
+        font-size: 18px;
         text-align: justify;
       }
 
@@ -327,88 +371,6 @@ footer{
     .project-div{
      margin-bottom : 1em;
     }
-}
-
-
-
-.project-blog-image img {
-    width: 100%;
-    height: 200px;
-}
-
-
-.technologies{
-    margin: 75px 0;
-    padding-top: 25px;
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
-.services-tech-gallery{
-    margin: 3% auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.services-tech-img{
-    padding: 20px 20px;
-    height:80px;
-    width: auto;
-}
-
-
-.description{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-
-.btntwo{
-    font-size: 20px;
-}
-
-/*
-.project-blog-image {
-    box-shadow: rgba(0, 139, 139, 0.7) 0px 1px 4px;
-    border-bottom: 2px solid #00ced1;
-    border-bottom-style: inset;
-}
-*/
-
-img.emoji{
-    display: inline !important;
-    border: none !important;
-    box-shadow: none !important;
-    height: 1em !important;
-    width: 1em !important;
-    vertical-align: -0.1em !important;
-    background: none !important;
-    padding: 0 !important;
-}
-
-.highlight_text{
-    color: rgb(0, 139, 139);
-    /*font-weight: bold*/
-}
-
-.used_tech{
-    border: none;
-    background: rgba(0, 139, 139, 0.1);
-    padding: 3px 5px;
-    border-radius: 3px;
-    color: #008b8b;
-    font-family: "Roboto Mono";
-    font-size: small;
-    font-weight: 600;
-    transition: .4s;
-    margin: 2px;
-}
-
-.used_tech:hover{
-    cursor: pointer;
 }
 
 
